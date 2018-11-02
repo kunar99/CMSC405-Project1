@@ -14,7 +14,7 @@ public class Project1 extends JPanel {
      */
     public static void main(String[] args) {
         JFrame window;
-        window = new JFrame("Jesse Young Project 1");  // The parameter shows in the window title bar.
+        window = new JFrame("Project 1");  // The parameter shows in the window title bar.
         final Project1 panel = new Project1(); // The drawing area.
         window.setContentPane( panel ); // Show the panel in the window.
         window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); // End program when window closes.
@@ -44,7 +44,7 @@ public class Project1 extends JPanel {
      * which will be used by the pack() command in the main() routine.)
      */
     public Project1() {
-        setPreferredSize( new Dimension(800,600) ); // Set size of drawing area, in pixels.
+        setPreferredSize( new Dimension(800,800) ); // Set size of drawing area, in pixels.
     }
 
     /**
